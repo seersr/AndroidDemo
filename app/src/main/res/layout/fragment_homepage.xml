@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+    <Button
+        android:id="@+id/bt_hint"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="可见变为不可见"/>
+    <Button
+        android:id="@+id/bt_event"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="向发现页面传值"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recy_home"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
